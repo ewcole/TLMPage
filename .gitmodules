@@ -1,0 +1,4 @@
+[submodule "website"]
+	path = website
+	url = git@github.com:SaintAnthonyTLM/SaintAnthonyTLM.github.io.git
+	branch = gh-pages
