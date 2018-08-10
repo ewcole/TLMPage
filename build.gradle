@@ -1,0 +1,13 @@
+task build();
+
+ext {
+  webHome = new File('contents');
+}
+
+
+task copyImages(type: Copy) {
+  from 'src/images'
+  into   'contents'
+}
+
+build.dependsOn 'copyImages';
