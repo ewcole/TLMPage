@@ -4,10 +4,13 @@ body {
 }
 
 .sidebar {
-    border: 6px solid blue;
+    border: 6px ridge #6a2f03;
     border-radius: 9px;
-    box-shadow: 2px 3px 5px red;
+    box-shadow: 2px 3px 5px #0b0a0a;
     max-width: 20%;
+    margin: 0.2em;
+    padding: 0.5em;
+    background-color: white;
 }
 
 .sidebar h2 {
@@ -17,4 +20,16 @@ body {
 .left {
     float: left;
     clear: left;
+}
+
+.right {
+    float: right;
+    clear: right;
+}
+
+#novena img {
+    width: 95%;
+    text-align: center;
+    clear: both;
+    padding: 4px;
 }
