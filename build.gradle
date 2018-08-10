@@ -2,6 +2,8 @@ task build();
 
 ext {
   webHome = new File('contents');
+  srcDir = new File('src');
+  templateDir = new File(srcDir, 'templates');
 }
 
 
@@ -11,3 +13,16 @@ task copyImages(type: Copy) {
 }
 
 build.dependsOn 'copyImages';
+
+task buildHomePage() {
+  inputs.file new File(templateDir, 'homePage.template.html');
+  outputs.file new File('index.html');
+  doLast () {
+    def templateFile = new File(templateDir, 'homePage.template.html');
+    def indexFile = new File('index.html');
+    assert templateFile.exists();
+    indexFile.text = templateFile.text;
+  }
+}
+
+build.dependsOn "buildHomePage"
