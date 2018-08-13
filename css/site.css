@@ -1,6 +1,6 @@
 /* General CSS Settings */
 body {
-    
+    background-color: #ffd5b2;
 }
 
 .sidebar {
@@ -32,4 +32,33 @@ body {
     text-align: center;
     clear: both;
     padding: 4px;
+}
+
+#top-menu-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5em;
+    background-color: #221000;
+    color: white;
+    width: 100%;
+    padding: 0.3em;
+}
+
+#top-menu-bar + * {
+    margin-top: 2em;
+}
+
+#top-menu-bar .menu-item {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#top-menu-bar .menu-item > a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
 }
