@@ -27,6 +27,7 @@
 - [[file:.gitignore][.gitignore]]
 - [[file:LICENSE][LICENSE]]
 - [[file:README.md][README.md]]
+- [[file:build.cmd][build.cmd]]
 - [[file:build.gradle][build.gradle]]
 - [[file+emacs:index.html][index.html]]
 - [[file:notes.org][notes.org]]

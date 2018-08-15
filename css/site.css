@@ -1,10 +1,13 @@
 /* General CSS Settings */
 body {
-    background-color: #ffd5b2;
+    background-color: #fffecc;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .sidebar {
-    border: 6px ridge #6a2f03;
+    border: 6px solid #840;
     border-radius: 9px;
     box-shadow: 2px 3px 5px #0b0a0a;
     max-width: 20%;
@@ -34,18 +37,20 @@ body {
     padding: 4px;
 }
 #page-header {
-    background-color: #fafa19;
-    position: absolute;
+    /* background-color: #fafa19; */
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
-    
+    margin: 0 0 5px 0;
 }
 
 #page-header h1 {
     height: 1.5em;
     font-weight: bold;
     margin: 0;
+    background-color: #840;
+    color: white;
 }
 #top-menu-bar {
     height: 1.5em;
@@ -56,7 +61,7 @@ body {
 }
 
 #page-header + * {
-    margin-top: 6em;
+    margin-top: 1em;
 }
 
 #top-menu-bar .menu-item {
