@@ -9,7 +9,14 @@ body {
     border: 6px solid #840;
     border-radius: 9px;
     box-shadow: 2px 3px 5px #0b0a0a;
-    max-width: 20%;
+    margin: 0.2em;
+    padding: 0.5em;
+    background-color: white;
+}
+.panel {
+    border: 6px solid #840;
+    border-radius: 9px;
+    box-shadow: 2px 3px 5px #0b0a0a;
     margin: 0.2em;
     padding: 0.5em;
     background-color: white;
@@ -29,9 +36,12 @@ body {
     clear: right;
 }
 
-#left-panel {
-    float: left;
+#right-panel {
+    float: right;
+    max-width: 35%;
 }
+
+
 #novena img {
     width: 95%;
     text-align: center;
