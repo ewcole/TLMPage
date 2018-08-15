@@ -3,7 +3,6 @@ body {
     background-color: #fffecc;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 .sidebar {
@@ -30,6 +29,9 @@ body {
     clear: right;
 }
 
+#left-panel {
+    float: left;
+}
 #novena img {
     width: 95%;
     text-align: center;
@@ -43,6 +45,7 @@ body {
     left: 0;
     width: 100%;
     margin: 0 0 5px 0;
+    font-family: sans-serif;
 }
 
 #page-header h1 {
@@ -51,6 +54,7 @@ body {
     margin: 0;
     background-color: #840;
     color: white;
+    overflow: hidden;
 }
 #top-menu-bar {
     height: 1.5em;
