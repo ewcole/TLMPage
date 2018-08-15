@@ -33,11 +33,21 @@ body {
     clear: both;
     padding: 4px;
 }
-
-#top-menu-bar {
+#page-header {
+    background-color: #fafa19;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    
+}
+
+#page-header h1 {
+    height: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+#top-menu-bar {
     height: 1.5em;
     background-color: #221000;
     color: white;
@@ -45,13 +55,15 @@ body {
     padding: 0.3em;
 }
 
-#top-menu-bar + * {
-    margin-top: 2em;
+#page-header + * {
+    margin-top: 6em;
 }
 
 #top-menu-bar .menu-item {
     font-weight: bold;
     font-family: sans-serif;
+    display: inline-block;
+    padding-right: 1.5em;
 }
 
 #top-menu-bar .menu-item > a {

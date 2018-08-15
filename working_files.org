@@ -30,6 +30,7 @@
 - [[file:build.gradle][build.gradle]]
 - [[file+emacs:index.html][index.html]]
 - [[file:notes.org][notes.org]]
+- [[file:working_files.org][working_files.org]]
 ** contents
 - [[file:contents/Our_Mother_of_Perpetual_Help.jpg][Our_Mother_of_Perpetual_Help.jpg]]
 ** css
@@ -40,7 +41,3 @@
 *** templates
 - [[file+emacs:src/templates/homePage.template.html][homePage.template.html]]
 - [[file+emacs:src/templates/novena.html][novena.html]]
-** website
-- [[file:website/.gitignore][.gitignore]]
-- [[file:website/LICENSE][LICENSE]]
-- [[file:website/README.md][README.md]]
