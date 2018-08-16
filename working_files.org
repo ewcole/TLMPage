@@ -25,6 +25,7 @@
 #+LATEX_HEADER:
 * Files
 - [[file:.gitignore][.gitignore]]
+- [[file:BuildHomePage.groovy][BuildHomePage.groovy]]
 - [[file:LICENSE][LICENSE]]
 - [[file:README.md][README.md]]
 - [[file:build.cmd][build.cmd]]

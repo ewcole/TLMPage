@@ -1,0 +1,7 @@
+<% if (announcements?.size()) { %>
+<div id="${id}" class="panel announcements">
+  <% announcements.each { announcement -> %>
+  ${announcement}
+  <% } %>
+</div>
+<% } %>
