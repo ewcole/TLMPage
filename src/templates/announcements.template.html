@@ -1,7 +1,15 @@
 <% if (announcements?.size()) { %>
-<div id="${id}" class="panel announcements">
+<div class="panel announcements">
+  <h2>Announcements</h2>
   <% announcements.each { announcement -> %>
-  ${announcement}
+  
+  <div class="announcement">
+    <% if ("${announcement.@title}"?.size()) { %>
+    <h3>${announcement.@title}</h3>
+    ${announcement}
+    <% } %>
+    ${announcement}
+  </div>
   <% } %>
 </div>
 <% } %>

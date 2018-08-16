@@ -38,8 +38,11 @@
 ** css
 - [[file:css/site.css][site.css]]
 ** src
+*** announcement
+- [[file:src/announcement/2018-08-16-High_Mass.xml][2018-08-16-High_Mass.xml]]
 *** images
 - [[file:src/images/Our_Mother_of_Perpetual_Help.jpg][Our_Mother_of_Perpetual_Help.jpg]]
 *** templates
+- [[file+emacs:src/templates/announcements.template.html][announcements.template.html]]
 - [[file+emacs:src/templates/homePage.template.html][homePage.template.html]]
 - [[file+emacs:src/templates/novena.html][novena.html]]

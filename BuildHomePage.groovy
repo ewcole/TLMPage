@@ -31,7 +31,7 @@ def indexTemplate = new SimpleTemplateEngine()
 
 indexFile.withWriter {
   w ->
-  indexTemplate.make([announcements: announcementList,
+  indexTemplate.make([announcements: announcements,
                       news: ""]).toString().readLines().each {
     w.println it
     // println it;

@@ -16,7 +16,7 @@ build.dependsOn 'copyImages';
 
 task buildHomePage() {
   inputs.file new File(templateDir, 'homePage.template.html');
-  inputs.dir  "$srcDir";
+  inputs.dir  "${srcDir.canonicalFile}";
   inputs.file new File('BuildHomePage.groovy');
   outputs.file new File('index.html');
   doLast () {
